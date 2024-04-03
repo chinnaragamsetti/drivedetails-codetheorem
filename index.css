@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+}
+.main-cont {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.left-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+}
+.track-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 1px 1px 3px 1px lightgrey;
+
+  margin-bottom: 0px;
+}
+.track-inc {
+  font-size: 10px;
+}
+
+.banner-cont {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.each-banner {
+  font-size: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+  width: 100%;
+}
+.each-image {
+  width: 10px;
+  height: 10px;
+}
+.each-item {
+  font-size: 10px;
+}
+.logout-cont {
+  height: auto;
+  width: 100%;
+  box-shadow: 1px 1px 3px 1px lightgrey;
+}
+.right-cont {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+.top-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #121e48;
+  padding: 20px;
+}
+.greet-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin-top: 32px;
+  width: 100%;
+}
+.greeting {
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.snp-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-cont {
+  display: flex;
+  border-radius: 5px;
+  height: 10px;
+  box-shadow: 1px 1px 3px 1px lightgrey;
+}
+.search-icon {
+}
+.input-bar {
+  outline: none;
+  border: none;
+  padding: 3px;
+  color: grey;
+}
+
+.notify-cont {
+  height: 100%;
+}
+.notify-icon {
+  width: 20px;
+  height: 20px;
+}
+.profile-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-image {
+  width: 20px;
+  height: 20px;
+}
+.finance-text {
+  font-size: 10px;
+  color: #ffffff;
+}
+.finance-status-cont {
+  display: flex;
+  justify-content: space-around;
+}
+.each-finance-cont {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 20%;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px 1px lightgrey;
+}
+.amount {
+  font-size: 20px;
+  color: black;
+}
+.finance-cont-text {
+  font-size: 15px;
+  color: lightgrey;
+}
+.finance-cont-image {
+  width: 20px;
+  height: 40px;
+  align-self: flex-end;
+}
+
+.projects-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin: 10px;
+  box-shadow: 1px 1px 3px 1px lightgrey;
+}
+
+.project-head-cont {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  width: 100%;
+  margin-top: 3px;
+}
+.current-project-head {
+  font-size: 10px;
+  color: #121e48;
+}
+.create-button {
+  font-size: 10px;
+  background-color: lightgreen;
+  color: #ffffff;
+  border: none;
+}
+.index-cont {
+  display: flex;
+  width: 100%;
+}
+.project-name-and-amount {
+  width: 30%;
+  font-size: 10px;
+}
+.customer-and-date {
+  width: 20%;
+  font-size: 10px;
+}
+.hr-line {
+  width: 100%;
+}
+.project-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.each-list {
+  display: flex;
+  width: 100%;
+}
+.project-name {
+  width: 30%;
+  font-size: 10px;
+}
+.customer {
+  width: 20%;
+  font-size: 10px;
+}
+.date {
+  width: 20%;
+  font-size: 10px;
+}
+.amount {
+  width: 30%;
+  font-size: 10px;
+}
+.status {
+  font-size: 5px;
+}
+.events-cont {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  height: 150px;
+  align-self: flex-start;
+  overflow-y: auto;
+  box-shadow: 1px 1px 3px 1px lightgrey;
+  margin-top: 10px;
+  margin: 10px;
+}
+.event-head {
+  font-size: 10px;
+}
+.events-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.event-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.event-image {
+  width: 20px;
+  height: 20px;
+}
+.name-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-size: 10px;
+}
+.status-and-day-cont {
+  display: flex;
+}
+.cake {
+  width: 10px;
+  height: 10px;
+}
+.day-and-date {
+  font-size: 10px;
+}
+.status {
+  font-size: 10px;
+}
+.wish {
+  font-size: 10px;
+  width: 50px;
+}
